@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to html & css</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <h1>Introduction to HTML & CSS </h1>
+    </header>
+
+    <nav>
+
+        <a href="http://">Home</a>
+
+        <a href="http://">Login</a>
+
+        <a href="http://">Contact Us</a>
+
+    </nav>
+
+    
+    <div id="Forms">
+        <form id="descriptionform">
+            <label for="fname">First name *</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your First name"><br>
+    
+            <label for="lname">Last Name *</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your Last name" ><br>
+    
+            <label for="email">Email *</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required="email"><br>
+    
+            <label for="course">Choose a language:</label><br>
+            <select name="course" id="course">
+                <option value="">Please choose an option</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="cpp">C++</option>
+            </select>
+            <br>
+    
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="comment" placeholder="Explain"></textarea>
+            <br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer> 
+        
+    <table>
+        <div>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Markus Agersten</td>
+                <td>Markus.Agersten@gmail.com</td>
+                <td><button>Edit</button></td>
+                <td><button>Delete</button></td>
+                
+                
+            </tr>
+        </div>
+       
+<div>
+    <tr>
+
+        <td>2</td>
+        <td>Simon Eklund</td>
+        <td>Simon.eklund@gmail.com</td>
+        <td><button>Edit</button></td>
+        <td><button>Delete</button></td>
+        </tr>
+        
+</div>
+
+     
+
+    </table>
+    </footer>
+    
+
+
+
+</body>
+
+</html>
