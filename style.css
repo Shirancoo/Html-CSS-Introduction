@@ -8,6 +8,7 @@ body {
     padding: 0px;
     font-size: 20px;
     background-color: rgb(203, 207, 214);
+    
 
 }
 
@@ -61,6 +62,7 @@ form {
     width: 500px;
     padding: 1%;
     background-color: rgb(224, 219, 219);
+    box-sizing: border-box;
 }
 
 
@@ -121,3 +123,19 @@ tr,td {
     border: solid 1px ;
 
 }
+
+/* Default styles (Mobile-first approach) */
+body {
+    font-size: 16px;
+}
+/* Default styles (Mobile-first approach) */
+body {
+    font-size: 16px;
+}
+
+@media (min-width: 360px) { body { font-size: 17px; } }
+@media (min-width: 375px) { body { font-size: 18px; } }
+@media (min-width: 414px) { body { font-size: 19px; } }
+@media (min-width: 1366px) { body { font-size: 20px; } }
+@media (min-width: 1536px) { body { font-size: 21px; } }
+@media (min-width: 1920px) { body { font-size: 22px; } }
